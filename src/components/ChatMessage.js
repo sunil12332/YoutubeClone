@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 
-const ChatMessage=({nam,message})=>{
+const ChatMessage=({name,message})=>{
 
 
     return(
@@ -13,7 +13,7 @@ const ChatMessage=({nam,message})=>{
         src="https://clipground.com/images/user-icon-vector-png-6.png"
         />
         <div className="flex flex-col px-2">
-        <span>{nam}</span>
+        <span>{name}</span>
         <span>{message}</span>
         </div>
        

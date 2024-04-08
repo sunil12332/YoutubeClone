@@ -45,9 +45,7 @@ const Header = ()=>{
   
     setsuggestion(json[1]);
 
-    // dispatch(cachesearch({
-    //   searchQuery:json[1]
-    // }))
+   
 
   }
 
@@ -59,10 +57,7 @@ const Header = ()=>{
   }
 
 
-  const clickfunction=(c)=>{
-    console.log(c);
-   //  setsearchquery(c)
-  }
+  
 
   return(
 <div className=' sticky top-0 absolute  bg-gray-100  grid grid-flow-col p-2 m-2 shadow-lg'>
@@ -89,7 +84,7 @@ const Header = ()=>{
        {
         showsuggestion&&
         suggestion.map((c,index) => (
-          <li className='p-2 hover:bg-gray-200 flex gap-2 cursor-pointer' key={index} onClick={()=>clickfunction(c)}>
+          <li className='p-2 hover:bg-gray-200 flex gap-2 cursor-pointer' key={index}>
             <FiSearch className='cursor-pointer'  />
             {c}
           </li>

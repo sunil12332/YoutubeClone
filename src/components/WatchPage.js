@@ -51,8 +51,8 @@ const WatchPAge=()=>{
           <LiveChat/>
         </div>
         </div>
-          <div className="py-10">
-          <CommentContainer/>
+          <div className="px-10 flex flex-col gap-8">
+          <CommentContainer className="flex my-6"/>
       </div>
       </div>
     )

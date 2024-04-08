@@ -4,11 +4,11 @@ import React from "react";
 const CommentsData=[
     {
         name:"sunil",
-        text:"Loreum",
+        text:"best ",
         replies:[
             {
                 name:"sunil",
-                text:"Loreum" 
+                text:"good content" 
             },
             {
                 name:"sunil",
@@ -18,7 +18,7 @@ const CommentsData=[
     },
     {
         name:"sunil",
-        text:"Loreum",
+        text:"high 8",
         replies:[
             {
                 name:"sunil",
